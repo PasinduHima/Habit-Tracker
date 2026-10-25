@@ -1,3 +1,17 @@
+import { HabbitForm } from "./components/HabitForm";
+import { HabbitList } from "./components/HabitList";
+import { Header } from "./components/Header";
+
 export default function App() {
-  return <h1 className="text-red-500">Hello World</h1>
+  return (
+    <div>
+      <Header/>
+      <HabbitForm/>
+      <HabbitList/>
+    </div>
+  );
+}
+
+function HabbitForm() {
+  return null
 }
